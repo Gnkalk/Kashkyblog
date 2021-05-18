@@ -1,0 +1,66 @@
+*{
+  background-color: black;
+}
+ul,li{
+    color: lightgray;
+    list-style: none;
+    float:left;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+a{
+  text-decoration: none;
+}
+h1,h2{
+    color: lightgray;
+    font-size: 300%
+}
+h1:hover,h2:hover{
+  color: white
+}
+.sidebar{
+  display: inline-block;
+}
+.sidebar{
+  background-color: black;
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 24%;
+  border: darkgray 2px solid;
+  padding: 10px;
+  float: right;
+  clear: right;
+  margin-bottom: 15px
+}
+form{
+  color: gray
+}
+p{
+    background-color: black;
+    color: gray;
+}
+.text{
+  float: left;
+  width: 70%;
+  border: darkgray 2px solid;
+  padding: 10px;
+  margin-right:1%;
+  position: relative;
+}
+table,tr,td{
+  border: darkgray 1px solid;
+  border-collapse: collapse;
+  padding: 3px;
+  margin : 0px 0px 10px 26;
+  width: 20%;
+}
+.footer{
+  float: left;
+  padding: 10px;
+  border: 1px darkgray dashed;
+  color: gray;
+  position: absolute;
+  bottom: 0px;
+  right: 15px
+}
